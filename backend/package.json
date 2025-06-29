@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify",
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+  },
+  "dependencies": {
+    "@ad-mohankduo23/mediumblog-common": "^1.0.1",
+    "@prisma/client": "^6.8.2",
+    "@prisma/extension-accelerate": "^2.0.0",
+    "hono": "^4.7.10",
+    "multer": "^2.0.0",
+    "prisma": "^6.8.2",
+    "react-loading-skeleton": "^3.5.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "wrangler": "^4.4.0"
+  }
+}
