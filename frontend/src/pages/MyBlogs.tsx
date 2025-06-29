@@ -10,7 +10,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 import { BACKEND_URL } from "@/config";
 
 
-export function MyBlogs(props : any) {
+export function MyBlogs() {
 
     const [blogs,setBlogs] = useState<blogProps[]>([]);
 
